@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "post": "./bin/post",
-    "deploy": "jekyll build && surge _site makerlog.surge.sh",
+    "deploy": "jekyll build && surge _site makerlog.org",
     "bundle-css": "sheetify css/style.css | myth > public/bundle.css",
     "bundle": "npm run bundle-css",
     "watch-css": "chokidar 'css/*.css' -c 'npm run bundle-css'",
