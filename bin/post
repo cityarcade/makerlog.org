@@ -1,0 +1,14 @@
+#! /usr/bin/env node
+
+var fs = require('fs')
+var path = require('path')
+
+var title = process.argv[2]
+var slug = title.toLowerCase().replace(/ /g, '-').replace(/\./g, '-')
+var date = process.argv[3] + '-' + process.argv[4] + '-' + process.argv[5]
+var text = '---\nlayout: post\ntitle: \''  + title + '\'\n---\n\n'
+var filename = date + '-' + slug + '.md'
+var filepath = path.join(__dirname, '..', '_posts', filename)
+fs.writeFile(filepath, text, function (err, res) {
+  if (err) return console.log('something went wrong!\n', err)
+})

@@ -1,0 +1,11 @@
+{% for contributor in site.contributors %}
+  {% if contributor.slug == include.contributor %}
+    <div class="contributor">
+      <div class="contributor-image-wrapper">
+        <img src="{{ site.baseurl }}/public/{{ contributor.image }}" class="contributor-image">
+      </div>
+      <h2 class="contributor-name">{{ contributor.title }}</h2>
+      <div class="contributor-bio">{{ contributor.content }}</div>
+    </div>
+  {% endif %}
+{% endfor %}

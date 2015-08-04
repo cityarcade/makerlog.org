@@ -1,0 +1,23 @@
+.sidebar {
+  
+}
+
+.sidebar .content-section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.sidebar .content-section h3 {
+  margin-bottom: 5px;
+}
+
+.sidebar .content-section p {
+  margin-top: 0px;
+  font-size: 85%;
+}
+
+.sidebar .content-section p:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,48 @@
+title: makerlog
+description: "code, robots, & people"
+permalink: /posts/:title
+baseurl: ''
+markdown: redcarpet
+exclude: [node_modules, tmp, bin, css]
+
+collections:
+  contributors:
+    output: true
+    permalink: /:path/
+  cities:
+    output: true
+    permalink: /:path/
+  topics:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "contributors"
+    values:
+      layout: "contributor"
+  -
+    scope:
+      path: ""
+      type: "cities"
+    values:
+      layout: "city"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"

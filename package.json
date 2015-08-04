@@ -1,0 +1,35 @@
+{
+  "name": "makerlog.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "post": "./bin/post",
+    "deploy": "jekyll build && surge _site makerlog.surge.sh",
+    "bundle-css": "sheetify css/style.css | myth > public/bundle.css",
+    "bundle": "npm run bundle-css",
+    "watch-css": "chokidar 'css/*.css' -c 'npm run bundle-css'",
+    "start": "jekyll serve -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makerlog/makerlog.org.git"
+  },
+  "contributor": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makerlog/makerlog.org/issues"
+  },
+  "homepage": "https://github.com/makerlog/makerlog.org#readme",
+  "dependencies": {
+    "basscss-grid": "^1.0.3",
+    "chokidar-cli": "^1.0.0",
+    "csskit": "^1.1.1",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "myth": "^1.5.0",
+    "sheetify": "^2.0.0"
+  }
+}
