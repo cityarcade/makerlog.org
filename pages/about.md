@@ -9,3 +9,14 @@ This is the _makerlog_. This is an internet weblog. If something is related to o
 And maybe not. There's no money or huge team behind _the makerlog_. Right now we're on a small adventure, bouncing about in the interwebs.
 
 What do we include in this publication? Code, art, robots, & the people behind those things.
+
+## topics we'll cover:
+- art 
+- code
+- diversity
+- music
+- games
+- robotics
+- mapping
+- civics & governance
+- the people behind the projects
