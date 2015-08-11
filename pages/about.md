@@ -20,3 +20,7 @@ What do we include in this publication? Code, art, robots, & the people behind t
 - mapping
 - civics & governance
 - the people behind the projects
+
+## Contributing to _makerlog_
+
+Interested in contributing in some way to _makerlog_? Check out our [contributing guide](/contributing).
