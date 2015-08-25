@@ -589,12 +589,19 @@ Watch for a followup post about that! If you want to get emailed when the next p
 
 ## Source on GitHub
 
+All the source code for this example is available on GitHub: [https://github.com/sethvincent/github-auth-example](https://github.com/sethvincent/github-auth-example)
+
+Feel free to make pull requests, fork the code, etc.!
+
 Gatekeeper was originally developed for [prose.io](http://prose.io) and you'll find it in the prose GitHub organization: [https://github.com/prose/gatekeeper](https://github.com/prose/gatekeeper)
 
 ## Projects that use gatekeeper:
-- [prose.io]() – 
-- [requirebin.com]() – 
-- [geojson.io]() – 
-- [editdata.org]() – 
+- [prose.io](https://github.com/prose/prose) – edit prose files that are on github
+- [requirebin.com](https://github.com/maxogden/requirebin) – a javascript bin that let's you require modules from npm
+- [geojson.io](https://github.com/mapbox/geojson.io) – a tool for editing geojson
+- [editdata.org](https://github.com/flatsheet/editdata.org) – a tool for editing tabular data and saving it to github
 
-_Have a project that uses gatekeeper and want it listed? [Send a pull request]()_
+_Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
+
+## This post is open source
+Spot a typo? Have a great addition to make? Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)
