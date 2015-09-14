@@ -601,6 +601,10 @@ Gatekeeper was originally developed for [prose.io](http://prose.io) and you'll f
 - [geojson.io](https://github.com/mapbox/geojson.io) – a tool for editing geojson
 - [editdata.org](https://github.com/flatsheet/editdata.org) – a tool for editing tabular data and saving it to github
 
+## Next post in the series: adding cookies
+
+Take the next steps with this tutorial: [Using cookies with browser-side GitHub auth](/posts/using-cookies-with-browser-side-github-auth).
+
 _Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
 
 ## This post is open source
