@@ -1,7 +1,7 @@
 ---
 title: 'Using gatekeeper to authenticate to GitHub with browser-side JavaScript'
 contributors: [sethvincent]
-topics: [javascript, authentication, github]
+topics: [javascript, authentication, github, github-auth]
 description: "Allow GitHub login on your static sites."
 published: true
 ---

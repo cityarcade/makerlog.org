@@ -1,7 +1,7 @@
 ---
 title: 'Using cookies with browser-side GitHub auth'
 contributors: [sethvincent]
-topics: [javascript, authentication, github]
+topics: [javascript, authentication, github, github-auth]
 description: "Allow GitHub login on your static sites."
 published: true
 ---
