@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "css via npm: using and publishing small css modules"
-authors: [sethvincent]
+contributors: [sethvincent]
 topics: [css, npm]
 ---
 
