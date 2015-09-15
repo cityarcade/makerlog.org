@@ -193,5 +193,11 @@ logout.addEventListener('click', function (e) {
 
 Go back to the browser and try out the log out button. Success!
 
+## Example source on GitHub
+
+All the source code for this example is available on GitHub: [https://github.com/sethvincent/github-auth-example](https://github.com/sethvincent/github-auth-example)
+
+Feel free to make pull requests, fork the code, etc.!
+
 ## This post is open source
 Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-09-03-using-cookies-with-browser-side-github-auth.md)
