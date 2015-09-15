@@ -575,18 +575,6 @@ function renderLink () {
   document.body.appendChild(link)
 }
 ```
-
-## Next steps
-
-You'll notice that the site will lose the authentication when you refresh the page. Yikes!
-
-An important next step for the project is saving the access token that is returned from gatekeeper in a cookie, localstorage, or indexeddb.
-
-Watch for a followup post about that! If you want to get emailed when the next post is released sign up for our email list:
-
-{% include newsletter.html %}
-
-
 ## Source on GitHub
 
 All the source code for this example is available on GitHub: [https://github.com/sethvincent/github-auth-example](https://github.com/sethvincent/github-auth-example)
@@ -601,11 +589,23 @@ Gatekeeper was originally developed for [prose.io](http://prose.io) and you'll f
 - [geojson.io](https://github.com/mapbox/geojson.io) – a tool for editing geojson
 - [editdata.org](https://github.com/flatsheet/editdata.org) – a tool for editing tabular data and saving it to github
 
-## Next post in the series: adding cookies
+_Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
+
+## Next steps
+
+You'll notice that the site will lose the authentication when you refresh the page. Yikes!
+
+An important next step for the project is saving the access token that is returned from gatekeeper in a cookie.
+
+### Next post in the series: adding cookies
 
 Take the next steps with this tutorial: [Using cookies with browser-side GitHub auth](/posts/using-cookies-with-browser-side-github-auth).
 
-_Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
+### More like this:
+
+Subscribe to our newsletter to get more posts like this in your email:
+
+{% include newsletter.html %}
 
 ## This post is open source
 Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)
