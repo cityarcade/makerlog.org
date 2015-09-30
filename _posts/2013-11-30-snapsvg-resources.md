@@ -81,9 +81,3 @@ Interested in using Snap.svg with Browserify or Node.js? This gives an overview 
 [youtube.com/watch?v=hyaiFapVOek](http://www.youtube.com/watch?v=hyaiFapVOek)
 
 A great introductory video tutorial from Adobe about getting started with Snap.svg
-
-
-## This post is open source
-Add new resources to this list by forking the repository, making changes and making a pull request. Here's the file in the site's repo: [github.com/learn-js/learn-js.github.com/blob/master/_posts/2013-11-30-snapsvg-resources.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2013-11-30-snapsvg-resources.md)
-
-
