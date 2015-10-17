@@ -30,6 +30,7 @@
   "devDependencies": {
     "browserify": "^11.0.0",
     "myth": "^1.5.0",
-    "sheetify": "^2.0.0"
+    "sheetify": "^2.0.0",
+    "surge": "^0.16.0"
   }
 }
