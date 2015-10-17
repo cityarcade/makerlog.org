@@ -80,3 +80,7 @@ img {
 .sans-serif {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
 }
+
+.italic {
+  font-style: italic;
+}

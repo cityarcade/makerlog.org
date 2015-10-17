@@ -1004,6 +1004,10 @@ img {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 header {
   width: 100%;
   background-color: #009688;
@@ -1352,6 +1356,11 @@ main h1 {
 
 .sidebar .content-section p:last-child {
   margin-bottom: 0px;
+}
+
+.trailguide-book-cover {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .post,
