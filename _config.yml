@@ -1,5 +1,5 @@
 title: makerlog
-description: "code, art, robots, & people"
+description: "code, art, hardware, & people"
 permalink: /posts/:title
 baseurl: ''
 markdown: redcarpet
