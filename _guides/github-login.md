@@ -1,5 +1,12 @@
 ---
+title: "GitHub authentication on static sites"
 ---
+
+### This guide is broken up into 3 chapters:  
+- Authenticating with GitHub using browser-side JavaScript
+- Using cookies with browser-side GitHub auth
+- Creating a github-static-auth module
+
 
 # Authenticating with GitHub using browser-side JavaScript
 
@@ -27,19 +34,19 @@ If you haven't already, create an account on [github.com](http://github.com) and
 
 Click on your name at the top right of the screen, then click **Setting**.
 
-![screenshot of settings link](images/settings.png)
+![screenshot of settings link](/public/guides/github-login/settings.png)
 
 Then click the **Applications** link in the menu on the left.
 
-![screenshot of applications link](images/applications.png)
+![screenshot of applications link](/public/guides/github-login/applications.png)
 
 Next click **Developer Application**, and then **Register new application**.
 
-![screenshot of register new application button](images/register.png)
+![screenshot of register new application button](/public/guides/github-login/register.png)
 
 Finally, fill out the **Application name**, **Homepage URL**, and **Authorization callback URL** for your application.
 
-![screenshot of new application form](images/form.png)
+![screenshot of new application form](/public/guides/github-login/form.png)
 
 You can use these settings for your new application:
 
@@ -237,7 +244,7 @@ Alright, we've got github-secret-keeper all set up. Now we can get to the fun pa
 
 In this section we'll install project & development dependencies, set up some npm scripts, and write some JavaScript for making requests to github-secret-keeper and GitHub.
 
-### Install development dependency: budo, envify, browserify
+### Install development dependencies: budo, envify, browserify
 
 We'll use a tool called [budo](http://npmjs.org/budo) to serve our project to the browser. It's convenient because it'll serve an html file for us if we haven't already created one for the project.
 
@@ -342,7 +349,7 @@ You should see output similar to this:
 
 Now go to [http://localhost:9966](http://localhost:9966) in your browser and open up the JavaScript console in your browser's developer tools. You should see the config object logged like this:
 
-![screenshot of config object](images/config.png)
+![screenshot of config object](/public/guides/github-login/config.png)
 
 ### Install project dependency: xhr
 
@@ -396,11 +403,11 @@ Next, run `npm start` if you haven't already, then go to [http://127.0.0.1:9966]
 
 You should see a page that looks like this:
 
-![screenshot of github link](images/link.png)
+![screenshot of github link](/public/guides/github-login/link.png)
 
 If you click the link, you'll get redirected to GitHub's authorization page:
 
-![screenshot of github authorization page](images/auth.png)
+![screenshot of github authorization page](/public/guides/github-login/auth.png)
 
 Click the **Authorize application** button and you'll get redirected back to `http://127.0.0.1:9966`, except it will have a `code` query appended to the url.
 
@@ -1224,13 +1231,9 @@ If you run `npm start` in the directory of your example application, you should 
 
 I've published the github-static-auth module on npm, so if you're interested, you can use it in other applications you work on. You could even contribute to development of the module! 
 
-Here it is on npm: 
+**Here it is on npm:** [npmjs.org/github-static-auth](http://npmjs.org/github-static-auth)
 
-[npmjs.org/github-static-auth](http://npmjs.org/github-static-auth)
-
-And here is the GitHub repository:
-
-[github.com/sethvincent/github-static-auth](https://github.com/sethvincent/github-static-auth)
+**And here is the GitHub repository:** [github.com/sethvincent/github-static-auth](https://github.com/sethvincent/github-static-auth)
 
 
 
