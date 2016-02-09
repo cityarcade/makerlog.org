@@ -441,8 +441,26 @@ th {
 
 /* Basscss Grid */
 
+/* Basscss Defaults */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+  /* Cool */
+  /* Warm */
+  /* Gray scale */
+}
+
 .container {
-  max-width: 64em;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -683,24 +701,6 @@ th {
   .lg-col-12 {
     width: 100%;
   }
-}
-
-/* Basscss Defaults */
-
-/*
-
-   COLOR VARIABLES
-
-   - Cool
-   - Warm
-   - Gray Scale
-
-*/
-
-:root {
-  /* Cool */
-  /* Warm */
-  /* Gray scale */
 }
 
 .button,
@@ -1356,11 +1356,6 @@ main h1 {
 
 .sidebar .content-section p:last-child {
   margin-bottom: 0px;
-}
-
-.trailguide-book-cover {
-  width: 100%;
-  margin-bottom: 10px;
 }
 
 .post,
