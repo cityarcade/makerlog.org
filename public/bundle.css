@@ -7,12 +7,9 @@
  */
 
 html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -58,10 +55,8 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -259,12 +254,9 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
 }
 
 /**
@@ -296,13 +288,11 @@ select {
  */
 
 button,
-html input[type="button"],
+html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
 }
 
 /**
@@ -343,10 +333,8 @@ input {
 
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -366,10 +354,8 @@ input[type="number"]::-webkit-outer-spin-button {
  */
 
 input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  box-sizing: content-box;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
 }
 
 /**
@@ -399,10 +385,8 @@ fieldset {
  */
 
 legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -454,12 +438,19 @@ th {
 */
 
 :root {
+
   /* Cool */
+
+
   /* Warm */
+
+
   /* Gray scale */
+
 }
 
 .container {
+  max-width: 1024px;
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
@@ -476,11 +467,11 @@ th {
 }
 
 .col-1 {
-  width: 8.333333333333332%;
+  width: 8.33333%;
 }
 
 .col-2 {
-  width: 16.666666666666664%;
+  width: 16.66667%;
 }
 
 .col-3 {
@@ -488,11 +479,11 @@ th {
 }
 
 .col-4 {
-  width: 33.33333333333333%;
+  width: 33.33333%;
 }
 
 .col-5 {
-  width: 41.66666666666667%;
+  width: 41.66667%;
 }
 
 .col-6 {
@@ -500,11 +491,11 @@ th {
 }
 
 .col-7 {
-  width: 58.333333333333336%;
+  width: 58.33333%;
 }
 
 .col-8 {
-  width: 66.66666666666666%;
+  width: 66.66667%;
 }
 
 .col-9 {
@@ -512,11 +503,11 @@ th {
 }
 
 .col-10 {
-  width: 83.33333333333334%;
+  width: 83.33333%;
 }
 
 .col-11 {
-  width: 91.66666666666666%;
+  width: 91.66667%;
 }
 
 .col-12 {
@@ -524,6 +515,7 @@ th {
 }
 
 @media (min-width: 40em) {
+
   .sm-col {
     float: left;
     box-sizing: border-box;
@@ -535,11 +527,11 @@ th {
   }
 
   .sm-col-1 {
-    width: 8.333333333333332%;
+    width: 8.33333%;
   }
 
   .sm-col-2 {
-    width: 16.666666666666664%;
+    width: 16.66667%;
   }
 
   .sm-col-3 {
@@ -547,11 +539,11 @@ th {
   }
 
   .sm-col-4 {
-    width: 33.33333333333333%;
+    width: 33.33333%;
   }
 
   .sm-col-5 {
-    width: 41.66666666666667%;
+    width: 41.66667%;
   }
 
   .sm-col-6 {
@@ -559,11 +551,11 @@ th {
   }
 
   .sm-col-7 {
-    width: 58.333333333333336%;
+    width: 58.33333%;
   }
 
   .sm-col-8 {
-    width: 66.66666666666666%;
+    width: 66.66667%;
   }
 
   .sm-col-9 {
@@ -571,19 +563,21 @@ th {
   }
 
   .sm-col-10 {
-    width: 83.33333333333334%;
+    width: 83.33333%;
   }
 
   .sm-col-11 {
-    width: 91.66666666666666%;
+    width: 91.66667%;
   }
 
   .sm-col-12 {
     width: 100%;
   }
+
 }
 
 @media (min-width: 52em) {
+
   .md-col {
     float: left;
     box-sizing: border-box;
@@ -595,11 +589,11 @@ th {
   }
 
   .md-col-1 {
-    width: 8.333333333333332%;
+    width: 8.33333%;
   }
 
   .md-col-2 {
-    width: 16.666666666666664%;
+    width: 16.66667%;
   }
 
   .md-col-3 {
@@ -607,11 +601,11 @@ th {
   }
 
   .md-col-4 {
-    width: 33.33333333333333%;
+    width: 33.33333%;
   }
 
   .md-col-5 {
-    width: 41.66666666666667%;
+    width: 41.66667%;
   }
 
   .md-col-6 {
@@ -619,11 +613,11 @@ th {
   }
 
   .md-col-7 {
-    width: 58.333333333333336%;
+    width: 58.33333%;
   }
 
   .md-col-8 {
-    width: 66.66666666666666%;
+    width: 66.66667%;
   }
 
   .md-col-9 {
@@ -631,19 +625,21 @@ th {
   }
 
   .md-col-10 {
-    width: 83.33333333333334%;
+    width: 83.33333%;
   }
 
   .md-col-11 {
-    width: 91.66666666666666%;
+    width: 91.66667%;
   }
 
   .md-col-12 {
     width: 100%;
   }
+
 }
 
 @media (min-width: 64em) {
+
   .lg-col {
     float: left;
     box-sizing: border-box;
@@ -655,11 +651,11 @@ th {
   }
 
   .lg-col-1 {
-    width: 8.333333333333332%;
+    width: 8.33333%;
   }
 
   .lg-col-2 {
-    width: 16.666666666666664%;
+    width: 16.66667%;
   }
 
   .lg-col-3 {
@@ -667,11 +663,11 @@ th {
   }
 
   .lg-col-4 {
-    width: 33.33333333333333%;
+    width: 33.33333%;
   }
 
   .lg-col-5 {
-    width: 41.66666666666667%;
+    width: 41.66667%;
   }
 
   .lg-col-6 {
@@ -679,11 +675,11 @@ th {
   }
 
   .lg-col-7 {
-    width: 58.333333333333336%;
+    width: 58.33333%;
   }
 
   .lg-col-8 {
-    width: 66.66666666666666%;
+    width: 66.66667%;
   }
 
   .lg-col-9 {
@@ -691,16 +687,17 @@ th {
   }
 
   .lg-col-10 {
-    width: 83.33333333333334%;
+    width: 83.33333%;
   }
 
   .lg-col-11 {
-    width: 91.66666666666666%;
+    width: 91.66667%;
   }
 
   .lg-col-12 {
     width: 100%;
   }
+
 }
 
 .button,
@@ -922,7 +919,7 @@ select.full-width {
 
 html,
 body {
-  font: 18px/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  font: 18px/1.5 sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -939,6 +936,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Inconsolata, monospace;
   margin: 0px;
   font-weight: 500;
   line-height: 1.5;
@@ -958,8 +956,7 @@ a:focus {
   color: #000;
 }
 
-b,
-strong {
+b, strong {
   font-weight: 400;
 }
 
@@ -1173,8 +1170,7 @@ fieldset {
   padding: 0px;
 }
 
-.button,
-.button:link {
+.button, .button:link {
   margin-bottom: 0px;
 }
 
@@ -1338,6 +1334,10 @@ main h1 {
   }
 }
 
+.sidebar {
+  
+}
+
 .sidebar .content-section {
   background-color: #fff;
   padding: 20px;
@@ -1439,6 +1439,14 @@ main h1 {
 .contributor-image {
   width: 100%;
   height: 100%;
+}
+
+.contributor-name {
+  
+}
+
+.contributor-bio {
+  
 }
 
 .contributor-bio p {

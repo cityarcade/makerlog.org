@@ -1,6 +1,6 @@
 html,
 body {
-  font: 18px/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  font: 18px/1.5 sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -17,6 +17,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Inconsolata, monospace;
   margin: 0px;
   font-weight: 500;
   line-height: 1.5;
