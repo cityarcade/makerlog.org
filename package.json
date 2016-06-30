@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "post": "./bin/post",
-    "deploy": "jekyll build && surge _site makerlog.org",
+    "deploy": "npm run bundle && jekyll build && surge _site makerlog.org",
     "watch-css": "postcss --watch --use postcss-import --use postcss-cssnext -o public/bundle.css css/style.css",
     "bundle-css": "postcss --use postcss-import --use postcss-cssnext -o public/bundle.css css/style.css",
     "bundle-js": "browserify app.js -o public/bundle.js",
