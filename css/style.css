@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "basscss-grid";
 @import "csskit";
+@import "highlight.js/styles/tomorrow.css";
 @import "./variables";
 @import "./typography.css";
 @import "./header.css";

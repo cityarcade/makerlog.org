@@ -1,10 +1,7 @@
 header {
   width: 100%;
-  background-color: var(--teal);
-  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
-  padding: 10px 0px;
-  height: 57px;
-  position: fixed;
+  padding: 30px 0px;
+  height: 100px;
   top: 0;
 }
 
@@ -24,7 +21,7 @@ header ul#header-nav li {
 }
 
 header ul#header-nav a {
-  color: #FFF;
+  color: #333;
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
@@ -49,14 +46,15 @@ header a {
 }
 
 header .site-logo {
-  height: 30px;
+  height: 22px;
   width: auto;
   vertical-align: middle;
+  margin-top: 3px;
 }
 
 header .site-title {
   margin-top: 0px;
-  color: #fff;
+  color: #333;
   font-size: 25px;
   padding: 0px;
   border-bottom-left-radius: 2px;

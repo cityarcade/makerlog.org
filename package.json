@@ -6,9 +6,10 @@
   "scripts": {
     "post": "./bin/post",
     "deploy": "jekyll build && surge _site makerlog.org",
+    "watch-css": "postcss --watch --use postcss-import --use postcss-cssnext -o public/bundle.css css/style.css",
     "bundle-css": "postcss --use postcss-import --use postcss-cssnext -o public/bundle.css css/style.css",
-    "bundle": "npm run bundle-css",
-    "watch-css": "chokidar 'css/*.css' -c 'npm run bundle-css'",
+    "bundle-js": "browserify app.js -o public/bundle.js",
+    "bundle": "npm run bundle-css && npm run bundle-js",
     "start": "jekyll serve -w"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "basscss-grid": "^1.0.3",
     "chokidar-cli": "^1.0.0",
     "csskit": "^1.1.1",
+    "highlight.js": "^9.5.0",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {

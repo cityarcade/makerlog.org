@@ -18,9 +18,9 @@ h4,
 h5,
 h6 {
   font-family: Inconsolata, monospace;
-  margin: 0px;
-  font-weight: 500;
-  line-height: 1.5;
+  margin: 5px 0px 10px 0px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 a {
@@ -41,19 +41,15 @@ b, strong {
   font-weight: 400;
 }
 
-pre,
 code {
   font-family: Monaco, Menlo, monospace;
   padding: 0px 4px;
   background-color: #f8f8f8;
-  border: 1px solid #e2e2e2;
   overflow: scroll;
   font-size: 12px;
 }
 
-pre {
-  padding: 10px;
-}
+pre {}
 
 pre code {
   background-color: transparent;
