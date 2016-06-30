@@ -2,10 +2,6 @@
 var hl = require('highlight.js')
 hl.initHighlightingOnLoad()
 
-document.querySelectorAll('pre code').forEach(function (item) {
-  console.log('item', item)
-})
-
 },{"highlight.js":3}],2:[function(require,module,exports){
 /*
 Syntax highlighting with language autodetection.
