@@ -4,3 +4,4 @@ npm-debug.log
 _site
 tmp
 .jekyll-metadata
+public/bundle.*
