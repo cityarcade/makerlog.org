@@ -11,7 +11,7 @@ Over the next few weeks learnjs.io will become [makerlog.org](http://makerlog.or
 ## Why?
 **The simple reason:** writing only about JavaScript gets old.
 
-**The more complicated reason:** over the past year I started [Civic Maker Lab](http://civicmakerlab.com) a company focused on creating tools for journalists & community organizers. Part of that work is focused on software & part on education. The content of learnjs.io is relevant to that work, but it would fit better under a more broad name & mission: makerlog.org.
+**The more complicated reason:** I mostly focus on creating tools for journalists, community organizers, & interactive media. Part of that work is focused on software & part on education. The content of learnjs.io is relevant to that work, but it would fit better under a more broad name & mission: makerlog.org.
 
 ## What will be on this new blog?
 I love JavaScript, Node.js, npm, and related topics, but I'm wildly excited about expanding the topic areas that I write about. Expect posts related to code, art, robots, & the people behind those things. I plan to cover open source software, technology that supports civic engagement, community organizing, & the mad science of citizens.

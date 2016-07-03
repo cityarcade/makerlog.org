@@ -589,7 +589,7 @@ Gatekeeper was originally developed for [prose.io](http://prose.io) and you'll f
 - [geojson.io](https://github.com/mapbox/geojson.io) – a tool for editing geojson
 - [editdata.org](https://github.com/flatsheet/editdata.org) – a tool for editing tabular data and saving it to github
 
-_Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
+_Have a project that uses gatekeeper and want it listed? [Send a pull request](https://github.com/cityarcade/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)_
 
 ## Next steps
 
@@ -608,4 +608,4 @@ Subscribe to our newsletter to get more posts like this in your email:
 {% include newsletter.html %}
 
 ## This post is open source
-Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)
+Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/cityarcade/makerlog.org/blob/master/_posts/2015-08-24-gatekeeper-for-authenticating-with-github.md)

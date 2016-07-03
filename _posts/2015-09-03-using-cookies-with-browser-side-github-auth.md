@@ -200,4 +200,4 @@ All the source code for this example is available on GitHub: [https://github.com
 Feel free to make pull requests, fork the code, etc.!
 
 ## This post is open source
-Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/civicmakerlab/makerlog.org/blob/master/_posts/2015-09-03-using-cookies-with-browser-side-github-auth.md)
+Spot a typo? Have a great addition to make? [Send a pull request](https://github.com/cityarcade/makerlog.org/blob/master/_posts/2015-09-03-using-cookies-with-browser-side-github-auth.md)
