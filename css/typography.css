@@ -46,10 +46,11 @@ code {
   padding: 0px 4px;
   background-color: #f8f8f8;
   overflow: scroll;
-  font-size: 12px;
 }
 
-pre {}
+pre {
+  font-size: 80%;
+}
 
 pre code {
   background-color: transparent;

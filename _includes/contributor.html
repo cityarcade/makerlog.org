@@ -6,6 +6,9 @@
       </div>
       <h2 class="contributor-name">{{ contributor.title }}</h2>
       <div class="contributor-bio">{{ contributor.content }}</div>
+      <a href="http://{{contributor.website}}">{{contributor.website}}</a><br>
+      <a href="https://twitter.com/{{contributor.twitter}}">twitter.com/{{contributor.twitter}}</a><br>
+      <a href="https://github.com/{{contributor.github}}">github.com/{{contributor.github}}</a>
     </div>
   {% endif %}
 {% endfor %}

@@ -49,13 +49,13 @@ header .site-logo {
   height: 22px;
   width: auto;
   vertical-align: middle;
-  margin-top: 3px;
+  margin-top: 1px;
 }
 
 header .site-title {
   margin-top: 0px;
   color: #333;
-  font-size: 25px;
+  font-size: 22px;
   padding: 0px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
